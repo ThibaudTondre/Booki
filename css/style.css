@@ -1,7 +1,241 @@
 /****** General ***********/
-* {
+h1 h2 h3 {
     font-family: 'Raleway', sans-serif;
 }
+
+
+
+
+
+
+
+.logo{
+    
+    margin: 10px;
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+
+.menuheader{
+    
+    width: 350px;
+    height: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    position: absolute;
+    top: 0px;
+    right: 0px;  
+}
+
+a {
+    
+    text-decoration: none;
+    color: #0065FC;
+
+}
+
+
+
+.titre1{
+    
+    margin-top: 65px;
+    
+    height: 85px;
+    width: 850px;
+
+    display: flex;
+    justify-content: flex-start;
+
+}
+.titre12{
+    
+    height: 2px;
+    position: absolute;
+    top: 110px;
+
+}
+
+
+
+.searchBar{
+    font-size: 18px;
+    
+    color: white;
+    font-family: 'raleway', sans-serif;
+    background-color: #0065FC;
+    border-radius: 0px 15px 15px 0px;
+    padding :0px 0px 0px 0px ;
+    width: 100px;
+    height: 50px;
+    
+}
+
+.searchsection{
+   
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+input[type=search]{
+    
+    width: 200PX;
+    height: 50px;
+}
+
+.logogps{
+    background-color:#F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+
+.filtre{
+    
+    display: flex;
+    align-items: center ;
+    
+    ;
+ 
+}
+
+.button2{
+    background-color :white;;
+    font-weight: 700;
+    border-radius:25px;
+    width: 173px;
+    height: 50px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    justify-content: space-around;
+    border-color: #F2F2F2 ;
+
+    
+
+}
+.filtre2{
+    padding: 4px 8px 4px 8px;
+    
+}
+
+
+
+
+
+.button3{
+    background-color:white;;
+    font-weight: 700;
+    border-radius:25px;
+    width: 134px;
+    height: 50px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    justify-content: space-around;
+    border-color:#F2F2F2;
+    
+}
+.filtre3{
+    padding: 4px 8px 4px 8px;
+}
+
+
+.button4{
+    background-color:white;;
+    font-weight: 700;
+    border-radius:25px;
+    width: 170px;
+    height: 50px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    justify-content: space-around;
+    border-color:#F2F2F2;
+    
+}
+.filtre4{
+    padding: 4px 8px 4px 8px;
+}
+
+
+
+
+.button5{
+    background-color:white;
+    font-weight: 700;
+    border-radius:25px;
+    width: 167px;
+    height: 50px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    justify-content: space-around;
+    border-color:#F2F2F2;
+    
+
+}
+.filtre5{padding: 4px 8px 4px 8px;}
+
+
+
+
+
+
+
+
+
+
+.titre2{
+   
+    width: 700px;
+    display: flex;
+    align-items: center;
+  
+   
+}
+.titre21{
+    background-color: white;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    
+    border-left: 1px  #F2F2F2 solid;
+    border-top: 1px  #F2F2F2 solid;
+    border-right: 1px  #F2F2F2 solid;
+    border-bottom: 1px  #F2F2F2 solid;
+
+
+    
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
 
 :root {
     --main-color: #0065FC;
@@ -35,6 +269,8 @@ body {
     border-radius: 20px;
     padding: 5px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+   
+
 }
 
 .card img {
@@ -68,12 +304,65 @@ body {
 
 /****** Hebergements ***********/
 .hebergements {
-    width: 65%;
+   background-color:  #F2F2F2;
+   border-radius: 20px;
+   padding: 15px;
+    width: 871px;
+    height: 611px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+        
 }
+.hebergements img {
+   width:100%;
+   height: 55%;
+ border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.hebergements .card-content {
+    height: 43%;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+     
+}
+
+.hebergements .card{
+    background-color:white;
+    width: 250px;
+    height: 207px;
+    margin: 15px;
+}
+
+
+
+.hebergements .card-title {
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+.hebergements .card-subtitle {
+    margin: 0;
+}
+
+.hebergements .card-rating {
+    margin-bottom: 5px;
+}
+
+
+
+
+
 
 /****** Populaires ***********/
 .populaires {
-    width: 32%;
+    width: 429px;
+    height: 640px;
+   
 }
 
 .populaires-title {
