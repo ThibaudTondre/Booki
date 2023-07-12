@@ -303,15 +303,41 @@ body {
 }
 
 /****** Hebergements ***********/
+.hebergements-titletop {
+    height: 4%;
+    width: 100%;
+    background-color:  #F2F2F2;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 15px;
+
+}
+.hebergements-titlebot {
+    height: 4%;
+    width: 100%;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin: 15px;
+    
+}
+
+
+
 .hebergements {
-   background-color:  #F2F2F2;
+   background-color: #F2F2F2;
    border-radius: 20px;
    padding: 15px;
     width: 871px;
     height: 611px;
     display: flex;
     flex-wrap: wrap;
-    align-content: center;
+    
+    align-items: flex-start;
+    
+
         
 }
 .hebergements img {
