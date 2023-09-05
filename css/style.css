@@ -22,6 +22,7 @@ a, button, label {
 a {
     text-decoration: none;
     color: black;
+    font-family: 'Raleway-Regular';
 }
 
 button {
@@ -527,7 +528,10 @@ i.fa-solid.search_filters_filter_icon {
     height: 400px;
     
 }
+.hosting_main_card_footer_link{
+    font-family: 'Raleway';
 
+}
 
 /* ACTIVITY */
 
