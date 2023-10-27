@@ -8,11 +8,12 @@ html {
 
 body {
     font-family: 'Raleway-Regular', 'Sans serif';
-    margin: -15px 0px 0px 0px;
+    margin: auto;
 }
 
 main {
     padding: 0px 15px 0px 15px;
+    margin: auto;
 }
 
 a, button, label {
@@ -22,7 +23,7 @@ a, button, label {
 a {
     text-decoration: none;
     color: black;
-    font-family: 'Raleway-Regular';
+    font-family: 'Raleway';
 }
 
 button {
@@ -487,6 +488,8 @@ i.fa-solid.search_filters_filter_icon {
     align-content: space-between;
     justify-content: space-around;
     height: 530px;
+    padding: 0px 15px;
+    width: 98%;
 }
 
 .activity_card {
@@ -530,6 +533,9 @@ i.fa-solid.search_filters_filter_icon {
 }
 .hosting_main_card_footer_link{
     font-family: 'Raleway';
+    font-weight:700;
+    font-size: 18px;
+
 
 }
 
@@ -542,10 +548,13 @@ i.fa-solid.search_filters_filter_icon {
     margin-top: 35px;
     
     padding-bottom: 15px;
+   
 }
 
 .footer_containers {
+    
     display: flex;
+    justify-content:space-around;
     
    
     
@@ -553,7 +562,7 @@ i.fa-solid.search_filters_filter_icon {
 
 .footer_container {
     
-    width: 400px;
+    width: 40%;
     padding: 19px 0px 5px 15px; 
     display: flex;
     flex-direction: column;
@@ -591,13 +600,15 @@ i.fa-solid.search_filters_filter_icon {
 
 html {
     min-width: 768px;
-    max-width: 992px;
+    max-width: 1024px;
 }
 
 main {
     padding: 5px;
+    
 }
 
+    
 /* PAGE */
 
 /* SEARCH */
@@ -639,6 +650,7 @@ main {
 
 .hosting_main {
     margin: 20px 0px 20px 0px;
+    
 }
 
 .hosting_main_cards {
@@ -646,7 +658,8 @@ main {
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: center;
-}
+   
+    }
 
 .hosting_main_card {
     width: 29%;
@@ -665,6 +678,7 @@ main {
     
     margin: 20px 0px 20px 0px;
     height: 200px;
+   
 }
 .hosting_popular_cards {
     
@@ -686,12 +700,13 @@ main {
 
 /* ACTIVITY */
 .activity_cards {
-    
-    padding: 30px 35px 0px 0px ;
+    margin: 0px 30px 0px 0px;
+    padding: 30px 0px 0px 0px ;
     height: 285px;
-}
+}   
 .activity_card{
-    margin: 0px 15px 0px 15px;
+    
+    margin: 0px 5px 0px 15px;
    
 }
 .activity_card_fig_img_large {
@@ -703,10 +718,15 @@ main {
 
 /* ACTIVITY */
 
-}
+
 /* FOOTER */
 .footer{
     margin-top: 60px;
+    
+}
+.footer_container{
+ width: 241px;
+}
 }
 /*******************************************************************************************************************************************************************/
 @media screen and (max-width: 768px) {
@@ -762,8 +782,9 @@ main {
     }
         
     .header_nav_link:hover {
-        border-top: transparent;
-        
+        color: #0065FC;
+        border-bottom: 2px solid #0065FC;
+        border-top: none;
     }
         
     /* HEADER */
@@ -866,7 +887,7 @@ main {
         
     .hosting_popular.hosting_background {
         background-color:#F2F2F2;
-        margin: 0px;
+        margin: 10px;
         padding: 0px 0px 45px 0px;
     }
     .hosting_popular_header_title{
@@ -877,6 +898,7 @@ main {
     } 
     
     .hosting_popular_card {
+        
         width: 95%;
         margin: 15px 0px 5px 0px;
         
@@ -894,7 +916,7 @@ main {
     /* HOSTING MAIN */
     .hosting_main.hosting_background{
         background-color:white;
-        margin: 0px;
+        margin: 10px;
     }    
     .hosting_main_header_title{
        margin: 40px 0px 0px 15px; 
@@ -904,6 +926,7 @@ main {
         display: flex;
         flex-direction: column;
         padding: 0px 18px 0px 18px;
+        width: auto;
     }
     
     .hosting_main_card {
@@ -912,7 +935,7 @@ main {
         margin: 15px 0px 0px 0px;
     }
     .hosting_main_card_footer{
-        padding: 10px 0px 0px 15px;
+        padding: 15px 0px 0px 15px;
     }
         
     /* HOSTING MAIN */
@@ -920,32 +943,49 @@ main {
     /* HOSTING */
         
     /* ACTIVITY */
+    .activity_card{
+        padding: 15px 0px 0px 0px;
+
+    }
     .activity_header_title{
-        padding: 70px 0px 35px 0px;
+        padding: 55px 0px 20px 0px;
     }
      .activity.activity{
-        padding: 0px 29px 60px;
+        max-width: 738px;
+        min-width: 345px;
+        padding: 0px 0px 10px 0px;
+        margin: 0px 0px 0px 30px;
+        
      }   
      .activity_card_fig{
         width: 98%;
-        height: 190px;
-        padding: 0px 0px 15px 0px;
+        height: 180px;
+        margin: 0px 0px 0px 0px;
+     }
+     .activity_card_fig_caption_title{
+        
+        padding: 0px 0px 0px 10px;
      }
     .activity_cards{
         height: auto;
-        width: 100%;
+        width: 91%;
         display: flex;
         flex-direction: column;
+        padding: 0px 0px 50px 0px;
+        margin:0px 0px 0px 0px;
         
     }
     .activity_card.activity_card_large{
-        width: 98%;
+        
+        width: 100%;
         height: 190px;
-        padding: 0px 0px 15px 0px;
+        padding: 0px 0px 0px 0px;
+        margin:15px 0px 0px 0px;
     }
     .activity_card_fig_img.activity_card_fig_img_large{
-        height: 75%;
-        width: 110%;
+        height: 68%;
+        width:110%;
+        padding: 0px 0px 0px 0px;
     }
         
     /* ACTIVITY */
@@ -958,14 +998,21 @@ main {
     }
         
     .footer_containers {
+        
         flex-direction: column;
     }
-    
+    .footer_container_title{
+        width:225px;
+    }
+
     .footer_container {
+        max-width: 330px;
         margin-left: 30px;
         padding-top: 20px;
     }
-    
+  
+
+    }
     /* FOOTER */
     
-    }
+    
